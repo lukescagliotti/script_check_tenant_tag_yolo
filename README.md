@@ -88,24 +88,21 @@ chmod +x check_tenant.sh
 
 ## 📊 Output di esempio
 
-```
-🔍 Analizzando microservizi del tenant: artbkr
+### Lista dei tenant disponibili
+Quando esegui lo script senza parametri, visualizzi tutti i tenant disponibili:
 
-+----------------------------------+-------------+-------------+-------------------+
-| Microservizio                    | Tag UAT     | Tag PROD    | Status            |
-+==================================+=============+=============+===================+
-| iad-utility-deploy               | v1.2.48     | v1.2.46     | 🔼 UAT più recente |
-| payment-stripe-deploy            | v1.0.170-HF | v1.0.168-HF | 🔼 UAT più recente |
-| cms-service-deploy               | v0.0.12     | v0.0.12     | ✅ Allineato       |
-+----------------------------------+-------------+-------------+-------------------+
+![Lista tenant](assets/Screenshot%202025-11-04%20at%2010.16.29%20AM.png)
 
-📊 Statistiche:
-   Totale microservizi: 38
-   Allineati: 32
-   UAT più recente: 3
-   PROD più recente: 0
-   Config mancanti: 0
-```
+### Analisi dei tag per microservizio
+Quando analizzi un tenant specifico, vedi il confronto dettagliato dei tag tra UAT e PROD:
+
+![Tag microservizi](assets/Screenshot%202025-11-04%20at%2010.16.38%20AM.png)
+
+Lo script mostra:
+- Una tabella con tutti i microservizi del tenant
+- I tag configurati per UAT e PROD
+- Lo status di allineamento
+- Statistiche riassuntive finali
 
 ## 🎯 Legenda Status
 
