@@ -91,12 +91,12 @@ chmod +x check_tenant.sh
 ### Lista dei tenant disponibili
 Quando esegui lo script senza parametri, visualizzi tutti i tenant disponibili:
 
-![Lista tenant](assets/tenant-list.png)
+![Lista tenant](assets/photo_tenant_list.png)
 
 ### Analisi dei tag per microservizio
 Quando analizzi un tenant specifico, vedi il confronto dettagliato dei tag tra UAT e PROD:
 
-![Tag microservizi](assets/microservices-tags.png)
+![Tag microservizi](assets/photo_services_list.png)
 
 Lo script mostra:
 - Una tabella con tutti i microservizi del tenant
